@@ -7,7 +7,6 @@ env:
 phases:
   build:
     commands:
-      - echo Entered the deploy phase...
       - echo Deploy started on `date`
       - echo Deploying to $ENV_NAME environment...
 
